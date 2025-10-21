@@ -2,7 +2,7 @@ name: LaTeX Compiler
 
 on:
   push:
-    paths: ['**.tex', '**.bib', '**.cls', '**.sty', '**.yml', '**.yaml']
+    paths: ['**.tex', '**.bib', '**.cls', '**.sty', '**.yml', '**.yaml'] 
   workflow_dispatch:
 
 env:
